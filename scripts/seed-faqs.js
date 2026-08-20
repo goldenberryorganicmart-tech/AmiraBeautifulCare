@@ -15,7 +15,7 @@ if (fs.existsSync(envPath)) {
 }
 
 if (!mongodbUri) {
-  mongodbUri = 'mongodb+srv://Climax Apparels:xI2QuBaFZsYQ5vRD@cluster0.e5n1hnl.mongodb.net/Climax Apparels';
+  mongodbUri = 'mongodb+srv://AmiraBeautifulCare:xI2QuBaFZsYQ5vRD@cluster0.e5n1hnl.mongodb.net/AmiraBeautifulCare';
 }
 
 console.log('Connecting to MongoDB...');
@@ -34,8 +34,8 @@ const FAQ = mongoose.models.FAQ || mongoose.model('FAQ', FAQSchema);
 
 const faqs = [
   {
-    question: 'What type of products does Climax Apparels offer?',
-    answer: 'Climax Apparels offers premium and comfortable menswear. Our collection includes high-quality T-shirts, Polo Shirts, Casual & Formal Shirts, Hoodies, and comfortable Pants.',
+    question: 'What type of products does Amira Beautiful Care offer?',
+    answer: 'Amira Beautiful Care offers premium and comfortable menswear. Our collection includes high-quality T-shirts, Polo Shirts, Casual & Formal Shirts, Hoodies, and comfortable Pants.',
     order: 1,
     isActive: true,
   },

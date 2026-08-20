@@ -1,82 +1,169 @@
-# Amira Beautiful Care - Hero Banners AI Prompts (21:9 Ultra-Wide Ratio with Embedded Text & CTA)
+# Amira Beautiful Care - Product Image Generation Prompts (30 Products)
 
-Here are **5 professional ultra-wide (21:9)** hero banner prompts with **integrated typography, titles, subtitles, and CTA buttons directly inside the artwork** (just like Aarong / international luxury brand banners).
+Use these prompts in Midjourney, DALL-E 3, or other AI image generators to create high-quality, professional product thumbnail images.
 
-Please generate these in **21:9** aspect ratio (`--ar 21:9`), save as **`.webp`**, and place them in **`public/assets/images/banners/`**.
-
----
-
-### 1. Festive Eid / Puja Heritage Collection
-* **Target Filename:** `banner-festive-heritage.webp`
-* **File Path:** `public/assets/images/banners/banner-festive-heritage.webp`
-* **Prompt:**
-  ```text
-  A cinematic ultra-wide editorial fashion campaign banner. On the right side, an elegant South Asian Bengali couple standing in a sunlit royal terracotta palace courtyard; woman in crimson red gold-embroidered silk saree and man in ivory silk panjabi. On the lower center-left, elegant minimalist bold typography in clean white and gold lettering reads "HERITAGE IN HARMONY" with a sub-caption "FESTIVE '26 COLLECTION" and a sleek solid black rectangular button graphic with crisp white text reading "SHOP NOW". Ultra-wide composition, high-end commercial retail banner design, 8k resolution. --ar 21:9
-  ```
-* **Metadata to Seed:**
-  * **Title:** Heritage in Harmony
-  * **Link:** `/shop?filter=featured`
-  * **Order:** `1`
+### Rules for Generation:
+- **Aspect Ratio:** Always generate/crop images in **1:1 square ratio** (e.g., `--ar 1:1` in Midjourney).
+- **Style:** Clean, minimalist studio setup, soft shadows, sharp details, luxury commercial e-commerce product shot style.
+- **Save Format:** Export/convert the final images to `.webp` format.
+- **Save Path:** Place them in your public directory: `/public/assets/images/products/` using the filenames listed below.
 
 ---
 
-### 2. Summer Elegance & Handloom Cotton
-* **Target Filename:** `banner-summer-handloom.webp`
-* **File Path:** `public/assets/images/banners/banner-summer-handloom.webp`
-* **Prompt:**
-  ```text
-  A wide-angle minimalist summer fashion advertisement banner. On the right side, a graceful South Asian female model in a pastel mint green and sage hand-block printed cotton saree posing in a sun-drenched modern minimalist architectural villa. On the bottom center, modern editorial serif typography in crisp white lettering displays the title "SUMMER RESET" with small uppercase subtitle "HANDLOOM / 26" and a sharp black call-to-action button badge reading "EXPLORE COLLECTION". Commercial e-commerce billboard aesthetic, soft ambient daylight, 8k resolution. --ar 21:9
-  ```
-* **Metadata to Seed:**
-  * **Title:** Summer Reset
-  * **Link:** `/shop?category=women`
-  * **Order:** `2`
+## 1. Makeup
+
+### Product 1: Luxury Matte Lipstick
+* **Filename:** `luxury-matte-lipstick.webp`
+* **Prompt:** A premium matte red lipstick in a sleek black and gold metallic tube, shown standing upright with the cap off on a clean pastel pink surface. Soft commercial studio lighting. 1:1 square aspect ratio.
+
+### Product 2: Longwear Liquid Foundation
+* **Filename:** `longwear-liquid-foundation.webp`
+* **Prompt:** A luxury frosted glass bottle of liquid foundation with a black pump dispenser. Standing on a circular beige marble platform, soft shadows, clean cosmetics setup. 1:1 square aspect ratio.
+
+### Product 3: Waterproof Volume Mascara
+* **Filename:** `waterproof-volume-mascara.webp`
+* **Prompt:** A premium gold-metallic tube of waterproof volumizing mascara, lying flat next to its mascara wand showing the dark, rich brush bristles. Modern clean studio setup. 1:1 square aspect ratio.
 
 ---
 
-### 3. Men's Royal Silk Panjabi
-* **Target Filename:** `banner-mens-royal-panjabi.webp`
-* **File Path:** `public/assets/images/banners/banner-mens-royal-panjabi.webp`
-* **Prompt:**
-  ```text
-  A luxury men's fashion campaign web banner. On the right, a handsome Bengali gentleman sitting in a vintage study room wearing a midnight blue and gold-embroidered Katan silk panjabi with cinematic side lighting. In the center-left area, prominent bold luxury typography in white and gold text reads "GROUNDED IN GRACE" with subtitle "THE ROYAL SILK EDIT" and an elegant clean rectangular button graphic with uppercase text "SHOP MEN". Clean commercial fashion banner layout, 8k resolution. --ar 21:9
-  ```
-* **Metadata to Seed:**
-  * **Title:** Grounded in Grace
-  * **Link:** `/shop?category=men`
-  * **Order:** `3`
+## 2. Skincare
+
+### Product 4: Hyaluronic Acid Serum
+* **Filename:** `hyaluronic-acid-serum.webp`
+* **Prompt:** A minimalist clear glass dropper bottle containing a transparent hyaluronic acid serum. Droplets of water on the bottle, standing on a wet grey stone surface, organic clean aesthetic. 1:1 square aspect ratio.
+
+### Product 5: Hydrating Gel Moisturizer
+* **Filename:** `hydrating-gel-moisturizer.webp`
+* **Prompt:** A glass jar of translucent aqua blue hydrating gel moisturizer. The jar is open, revealing the smooth gel texture inside, placed on a clean minimalist white background. 1:1 square aspect ratio.
+
+### Product 6: Gentle Foaming Cleanser
+* **Filename:** `gentle-foaming-cleanser.webp`
+* **Prompt:** A white pump bottle of gentle foaming facial cleanser, with soft, fluffy white bubbles overflowing on the dispenser. Clean bathroom marble countertop, soft lighting. 1:1 square aspect ratio.
 
 ---
 
-### 4. Artisan Home Décor & Living
-* **Target Filename:** `banner-home-living-decor.webp`
-* **File Path:** `public/assets/images/banners/banner-home-living-decor.webp`
-* **Prompt:**
-  ```text
-  An ultra-wide luxury interior home decor promotional banner. A warm sunlit living room featuring handcrafted indigo block-printed cushions on a linen sofa, brass lamps, and jute rug. In the center, clean minimalist typography in bold white serif reads "ARTISAN LIVING" with sub-caption "HANDCRAFTED HOME DÉCOR" and a stylish dark button graphic in the center reading "DISCOVER NOW". High-end e-commerce website hero header design, photorealistic, 8k. --ar 21:9
-  ```
-* **Metadata to Seed:**
-  * **Title:** Artisan Living
-  * **Link:** `/shop?category=home-decor`
-  * **Order:** `4`
+## 3. Hair Care
+
+### Product 7: Nourishing Argan Hair Oil
+* **Filename:** `nourishing-argan-hair-oil.webp`
+* **Prompt:** An amber glass dropper bottle of nourishing argan hair oil, standing on a light wood background next to a dry argan nut and soft green leaf. Luxury salon advertising style. 1:1 square aspect ratio.
+
+### Product 8: Repairing Keratin Shampoo
+* **Filename:** `repairing-keratin-shampoo.webp`
+* **Prompt:** A sleek, modern tall white bottle of repairing keratin shampoo, standing next to a splash of clean water on a neutral studio background. Professional hair care product. 1:1 square aspect ratio.
+
+### Product 9: Hydrating Coconut Hair Mask
+* **Filename:** `hydrating-coconut-hair-mask.webp`
+* **Prompt:** A round white tub of hydrating coconut hair mask cream. Cream is open, showing rich texture, sitting next to a fresh half coconut on a clean surface. 1:1 square aspect ratio.
 
 ---
 
-### 5. Royal Wedding Bridal Edit
-* **Target Filename:** `banner-wedding-splendor.webp`
-* **File Path:** `public/assets/images/banners/banner-wedding-splendor.webp`
-* **Prompt:**
-  ```text
-  A grand royal wedding bridal fashion commercial banner. An opulent South Asian bride in a rich maroon Zardozi silk Benarasi saree alongside the groom in an ivory embroidered sherwani inside an illuminated heritage palace with golden bokeh. In the lower center, sophisticated gold and white typography reads "ROYAL SPLENDOR" with a delicate subtitle "THE BRIDAL CHAPTER" and a solid black luxury button graphic displaying "EXPLORE BRIDAL". Premium high-fashion campaign banner, 8k resolution. --ar 21:9
-  ```
-* **Metadata to Seed:**
-  * **Title:** Royal Splendor
-  * **Link:** `/shop?category=wedding`
-  * **Order:** `5`
+## 4. Fragrance & Perfume
+
+### Product 10: Luxury Floral Eau de Parfum
+* **Filename:** `luxury-floral-perfume.webp`
+* **Prompt:** A beautiful geometric glass perfume bottle containing light pink liquid, decorated with a small silk ribbon on the neck. Placed on marble next to soft pink rose petals. 1:1 square aspect ratio.
+
+### Product 11: Classic Woody Oud Cologne
+* **Filename:** `classic-woody-oud.webp`
+* **Prompt:** A dark, heavy glass bottle of luxury woody oud cologne for men. Lying on a dark rustic wooden block, moody studio lighting, golden accents. 1:1 square aspect ratio.
+
+### Product 12: Fresh Citrus Unisex Perfume
+* **Filename:** `fresh-citrus-perfume.webp`
+* **Prompt:** A clean minimalist clear glass perfume bottle with fresh green-yellow liquid, standing next to fresh orange and lemon slices on a bright, sunny surface. 1:1 square aspect ratio.
 
 ---
 
-## Instructions:
-1. Generate the 5 images using these prompts (title, subtitle, and CTA buttons are now embedded directly in the prompts).
-2. Save them as `.webp` in `public/assets/images/banners/`.
-3. Let me know once saved, and I will run the database seed script!
+## 5. Beauty & Personal Care
+
+### Product 13: Shea Butter Body Lotion
+* **Filename:** `shea-butter-body-lotion.webp`
+* **Prompt:** A large pump dispenser bottle of shea butter body lotion, with raw shea butter chunks and a white flower nearby, soft beige studio background. 1:1 square aspect ratio.
+
+### Product 14: Refreshing Aloe Vera Gel
+* **Filename:** `refreshing-aloe-vera-gel.webp`
+* **Prompt:** A squeeze tube of clear, green refreshing aloe vera gel. The tube is resting next to sliced fresh green aloe vera leaves with glistening gel. 1:1 square aspect ratio.
+
+### Product 15: Lavender Infused Bath Salts
+* **Filename:** `lavender-bath-salts.webp`
+* **Prompt:** A glass jar filled with purple lavender bath salts, next to a sprig of fresh lavender flowers on a white waffle-weave cotton towel, relaxing spa aesthetic. 1:1 square aspect ratio.
+
+---
+
+## 6. Beauty Accessories
+
+### Product 16: Rose Quartz Gua Sha & Roller Set
+* **Filename:** `rose-quartz-roller-set.webp`
+* **Prompt:** A rose quartz facial roller and matching heart-shaped gua sha tool, lying together on a soft, draped pink silk fabric. Elegant commercial shot. 1:1 square aspect ratio.
+
+### Product 17: Professional Makeup Brush Set (12pcs)
+* **Filename:** `makeup-brush-set.webp`
+* **Prompt:** A set of 12 professional makeup brushes with rose gold ferrules and soft bristles, neatly organized in a leather brush holder on a clean vanity desk. 1:1 square aspect ratio.
+
+### Product 18: Premium Silk Sleep Mask
+* **Filename:** `premium-silk-sleep-mask.webp`
+* **Prompt:** A luxurious, soft pink silk sleep mask, resting on a fluffy white pillow with elegant studio lighting. Soft dreams and luxury lifestyle vibe. 1:1 square aspect ratio.
+
+---
+
+## 7. Nail Care
+
+### Product 19: Long-Lasting Gel Nail Polish (Pastel Pink)
+* **Filename:** `gel-nail-polish-pink.webp`
+* **Prompt:** A small glass bottle of pastel pink gel nail polish with a brush showing a wet drop of glossy pink polish. Clean white background. 1:1 square aspect ratio.
+
+### Product 20: Nourishing Cuticle Oil Pen
+* **Filename:** `cuticle-oil-pen.webp`
+* **Prompt:** A sleek silver cuticle oil pen with a brush tip, showing golden oil glistening on the bristles. Standing upright on a soft pastel background. 1:1 square aspect ratio.
+
+### Product 21: Professional UV Nail Lamp
+* **Filename:** `uv-nail-lamp.webp`
+* **Prompt:** A modern white dome-shaped professional UV LED nail lamp, with its soft purple light glowing from inside. Studio setup, clean design. 1:1 square aspect ratio.
+
+---
+
+## 8. New Arrivals
+
+### Product 22: Glow-Boosting Vitamin C Essence
+* **Filename:** `vitamin-c-essence.webp`
+* **Prompt:** A bright orange glass dropper bottle of vitamin C essence, standing beside fresh, sliced oranges with bright morning sun lighting. 1:1 square aspect ratio.
+
+### Product 23: Velvet Lip Clay Trio
+* **Filename:** `velvet-lip-clay-trio.webp`
+* **Prompt:** Three mini tubes of velvet lip clay showing soft shades of nude, rose, and terracotta, arranged neatly in a row on a plaster block. 1:1 square aspect ratio.
+
+### Product 24: Botanical Repair Hair Serum
+* **Filename:** `botanical-repair-hair-serum.webp`
+* **Prompt:** A dark green glass dropper bottle of botanical hair repair serum, resting on a bed of fresh green moss and delicate ferns. Clean nature aesthetic. 1:1 square aspect ratio.
+
+---
+
+## 9. Best Sellers
+
+### Product 25: Advanced Night Repair Ampoule
+* **Filename:** `advanced-night-repair-ampoule.webp`
+* **Prompt:** A luxurious dark brown apothecary-style bottle of advanced night repair serum with a gold dropper cap, standing on a black reflective surface under deep blue ambient light. 1:1 square aspect ratio.
+
+### Product 26: Pore-Tightening Clay Mask
+* **Filename:** `pore-tightening-clay-mask.webp`
+* **Prompt:** A jar of rich grey bentonite clay mask, with a smear of clay on the side, resting on a textured concrete surface. Minimalist spa setup. 1:1 square aspect ratio.
+
+### Product 27: Matte Finish Setting Spray
+* **Filename:** `matte-finish-setting-spray.webp`
+* **Prompt:** A frosted black spray bottle of makeup setting spray, showing a fine mist sprayed in the air behind the bottle. Sleek, professional look. 1:1 square aspect ratio.
+
+---
+
+## 10. Special Offers
+
+### Product 28: Ultimate 7-Day Skincare Kit
+* **Filename:** `ultimate-skincare-kit.webp`
+* **Prompt:** A luxury skincare gift box set open to show mini bottles of cleanser, toner, serum, and moisturizer inside. Decorated with gold ribbons. 1:1 square aspect ratio.
+
+### Product 29: Luxury Mini Perfume Set (4pcs)
+* **Filename:** `luxury-mini-perfume-set.webp`
+* **Prompt:** A collection of four miniature glass perfume bottles, each with a different design, lined up inside an elegant open black presentation box. 1:1 square aspect ratio.
+
+### Product 30: Complete Glam Makeup Kit
+* **Filename:** `complete-glam-makeup-kit.webp`
+* **Prompt:** A luxury vanity makeup case filled with eyeshadow palettes, lipsticks, brushes, and blush, arranged beautifully on a vanity table. 1:1 square aspect ratio.

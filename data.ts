@@ -1,5 +1,5 @@
 export const productTitles = [
-  "Climax Apparels Wellness Pro",
+  "Amira Beautiful Care Wellness Pro",
   "Urban Velocity Sneakers",
   "CloudWalk Elite Performance",
   "Stealth Neo-Classic Lows",

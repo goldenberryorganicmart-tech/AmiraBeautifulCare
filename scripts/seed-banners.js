@@ -16,7 +16,7 @@ if (fs.existsSync(envPath)) {
 
 if (!mongodbUri) {
   // Fallback if env file doesn't parse correctly
-  mongodbUri = 'mongodb+srv://Climax Apparels:S4Epscw0SOkd5ZtG@cluster0.e5n1hnl.mongodb.net/Climax Apparels';
+  mongodbUri = 'mongodb+srv://AmiraBeautifulCare:S4Epscw0SOkd5ZtG@cluster0.e5n1hnl.mongodb.net/AmiraBeautifulCare';
 }
 
 console.log('Connecting to MongoDB...');
@@ -40,47 +40,57 @@ const Banner = mongoose.models.Banner || mongoose.model('Banner', BannerSchema);
 
 const banners = [
   {
-    title: 'Heritage in Harmony',
-    image: '/assets/images/Banner/banner-festive-heritage.webp',
-    link: '/shop?filter=featured',
-    primaryBtnText: 'Shop Collection',
-    primaryBtnLink: '/shop?filter=featured',
+    title: 'Bridal Special Collection',
+    image: '/assets/images/Banner/bridal-special-collection-banner.webp',
+    link: '/shop',
+    primaryBtnText: 'SHOP',
+    primaryBtnLink: '/shop',
+    secondaryBtnText: 'CONTACT',
+    secondaryBtnLink: 'https://wa.me/8801635093334',
     order: 1,
     isActive: true,
   },
   {
-    title: 'Summer Reset',
-    image: '/assets/images/Banner/banner-summer-handloom.webp',
-    link: '/shop?category=women',
-    primaryBtnText: 'Explore Women',
-    primaryBtnLink: '/shop?category=women',
+    title: 'Cosmetics & Makeup',
+    image: '/assets/images/Banner/cosmetics-makeup-banner.webp',
+    link: '/shop',
+    primaryBtnText: 'SHOP',
+    primaryBtnLink: '/shop',
+    secondaryBtnText: 'CONTACT',
+    secondaryBtnLink: 'https://wa.me/8801635093334',
     order: 2,
     isActive: true,
   },
   {
-    title: 'Ground in Grace - The Royal Silk',
-    image: '/assets/images/Banner/banner-mens-royal-panjabi.webp',
-    link: '/shop?category=men',
-    primaryBtnText: 'Shop Men',
-    primaryBtnLink: '/shop?category=men',
+    title: 'Jewelry Collection',
+    image: '/assets/images/Banner/jewelry-collection-banner.webp',
+    link: '/shop',
+    primaryBtnText: 'SHOP',
+    primaryBtnLink: '/shop',
+    secondaryBtnText: 'CONTACT',
+    secondaryBtnLink: 'https://wa.me/8801635093334',
     order: 3,
     isActive: true,
   },
   {
-    title: 'Artisan Living',
-    image: '/assets/images/Banner/banner-home-living-decor.webp',
-    link: '/shop?category=home-decor',
-    primaryBtnText: 'Discover Decor',
-    primaryBtnLink: '/shop?category=home-decor',
+    title: 'Natural Skincare',
+    image: '/assets/images/Banner/natural-skincare-banner.webp',
+    link: '/shop',
+    primaryBtnText: 'SHOP',
+    primaryBtnLink: '/shop',
+    secondaryBtnText: 'CONTACT',
+    secondaryBtnLink: 'https://wa.me/8801635093334',
     order: 4,
     isActive: true,
   },
   {
-    title: 'Royal Splendor - The Bridal Edit',
-    image: '/assets/images/Banner/banner-wedding-splendor.webp',
-    link: '/shop?category=wedding',
-    primaryBtnText: 'Explore Bridal',
-    primaryBtnLink: '/shop?category=wedding',
+    title: 'Amira Beautiful Care Exclusive Signature',
+    image: '/assets/images/Banner/texjen-exclusive-signature-banner.webp',
+    link: '/shop',
+    primaryBtnText: 'SHOP',
+    primaryBtnLink: '/shop',
+    secondaryBtnText: 'CONTACT',
+    secondaryBtnLink: 'https://wa.me/8801635093334',
     order: 5,
     isActive: true,
   }

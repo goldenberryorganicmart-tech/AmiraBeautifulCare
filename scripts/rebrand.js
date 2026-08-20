@@ -2,20 +2,20 @@ const fs = require('fs');
 const path = require('path');
 
 const replacements = [
-  ['x Apparels Atelier', 'Amira Beautiful Care Atelier'],
-  ['x Apparels Boutique', 'Amira Beautiful Care Boutique'],
-  ['x Apparels Curators', 'Amira Beautiful Care Curators'],
-  ['x Apparels Intelligence', 'Amira Beautiful Care Intelligence'],
-  ['x Apparels Editorial', 'Amira Beautiful Care Editorial'],
-  ['x Apparels Assistant', 'Amira Beautiful Care Assistant'],
-  ['x Apparels CO.', 'Amira Beautiful Care CO.'],
-  ['x Apparels Team', 'Amira Beautiful Care Team'],
-  ['x Apparels AI', 'Amira Beautiful Care AI'],
-  ['x Apparelsr', 'Amira Beautiful Care'],  // typo fix in manifest.ts
-  ['x Apparels', 'Amira Beautiful Care'],
-  ['xApparels', 'AmiraBeautifulCare'],
-  ['xapparels.com', 'amirabeautifulcare.com'],
-  ['xapparels', 'amirabeautifulcare'],
+  ['x Apparels Atelier', 'Wide Computers Atelier'],
+  ['x Apparels Boutique', 'Wide Computers Boutique'],
+  ['x Apparels Curators', 'Wide Computers Curators'],
+  ['x Apparels Intelligence', 'Wide Computers Intelligence'],
+  ['x Apparels Editorial', 'Wide Computers Editorial'],
+  ['x Apparels Assistant', 'Wide Computers Assistant'],
+  ['x Apparels CO.', 'Wide Computers CO.'],
+  ['x Apparels Team', 'Wide Computers Team'],
+  ['x Apparels AI', 'Wide Computers AI'],
+  ['x Apparelsr', 'Wide Computers'],  // typo fix in manifest.ts
+  ['x Apparels', 'Wide Computers'],
+  ['xApparels', 'WideComputers'],
+  ['xapparels.com', 'widecomputers.com'],
+  ['xapparels', 'widecomputers'],
 ];
 
 const extensions = ['.ts', '.tsx', '.js', '.jsx'];

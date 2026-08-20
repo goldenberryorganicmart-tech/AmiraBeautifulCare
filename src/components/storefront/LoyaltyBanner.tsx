@@ -19,13 +19,9 @@ export function LoyaltyBanner({ settings, layout }: LoyaltyBannerProps) {
       <div className="container px-4 mx-auto relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/20 text-primary border border-primary/30 text-xs font-bold uppercase tracking-widest w-fit">
-              <Sparkles className="h-3 w-3" />
-              Lifetime Rewards
-            </div>
+
             <h2 className={`text-2xl sm:text-3xl ${layout === 'v3' ? 'lg:text-3xl' : 'md:text-5xl'} font-black tracking-tight md:tracking-tighter leading-tight md:leading-none break-words`}>
-              JOIN THE <span className="text-primary">Amira Beautiful Care</span> <br />
-              LOYALTY CLUB
+              JOIN THE LOYALTY CLUB
             </h2>
             <p className={`text-gray-400 ${layout === 'v3' ? 'lg:text-sm' : 'text-lg'} max-w-md`}>
               Unlock exclusive lifetime benefits. Spend <span className="text-white font-bold">৳{threshold}</span> once and earn <span className="text-primary font-bold">{percentage}% tokens</span> on every future purchase!
