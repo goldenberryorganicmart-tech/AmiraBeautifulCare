@@ -123,7 +123,7 @@ export default function FooterV1() {
           <div className="flex flex-col items-center text-center md:items-start md:text-left gap-4 lg:col-span-2">
             <Logo textClassName="text-xl md:text-2xl whitespace-nowrap" />
             <p className="text-sm text-muted-foreground w-full md:w-4/5">
-              Your ultimate destination for premium laptops, high-performance desktop components, gaming rigs, and enterprise server solutions. Delivering top-tier technology and unmatched reliability to power your dreams.
+              Find the latest fashionable beauty product and 100% genuine cosmetics at Amira Beautiful Care. Best deals and cash on delivery across Bangladesh.
             </p>
 
             {/* PWA Download App Button */}
