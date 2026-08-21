@@ -299,7 +299,7 @@ export default function ProductCardV3({ product: initialProduct, isFlashSale }: 
       </div>
 
       {/* Content Area */}
-      <div className="p-5 flex flex-col justify-between flex-grow gap-4">
+      <div className="px-3 py-4 flex flex-col justify-between flex-grow gap-4">
         {/* Category & Title */}
         <div className="space-y-1 w-full">
           <Link href={`/shop?category=${mainCategory?.slug || ''}`} className="text-[10px] font-extrabold uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors block">
@@ -321,8 +321,8 @@ export default function ProductCardV3({ product: initialProduct, isFlashSale }: 
         </div>
 
         {/* Price & Button Stack */}
-        <div className="flex items-end justify-between mt-auto pt-1">
-          <div className="flex flex-col">
+        <div className="flex flex-col items-center gap-3 sm:flex-row sm:items-end sm:justify-between mt-auto pt-1 w-full">
+          <div className="flex flex-col items-center sm:items-start">
             <span className="text-[16px] font-black text-primary">
               Tk {Math.round(product.salePrice ?? product.price).toLocaleString()}
             </span>
@@ -335,7 +335,7 @@ export default function ProductCardV3({ product: initialProduct, isFlashSale }: 
           <Button
             onClick={handleAddToCartClick}
             disabled={product.stock === 0}
-            className="bg-primary text-primary-foreground hover:bg-primary/90 px-5 py-2.5 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-colors duration-200"
+            className="w-full sm:w-auto bg-primary text-primary-foreground hover:bg-primary/90 px-5 py-2.5 rounded-xl text-xs font-semibold flex items-center justify-center gap-1.5 transition-colors duration-200"
           >
             <ShoppingBag className="h-4 w-4" />
             {product.stock === 0 ? 'Out' : 'Add'}
