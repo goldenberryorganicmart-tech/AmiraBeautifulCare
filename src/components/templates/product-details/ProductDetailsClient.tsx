@@ -567,16 +567,20 @@ export default function ProductDetailsClient({ product }: ProductDetailsClientPr
             )}
           </div>
           <div className="flex items-center gap-4 py-2">
-            <div className="flex items-center gap-1">
-              <RatingStars rating={product.ratings || 0} />
-              <span className="text-sm font-bold ml-1">{(product.ratings || 0).toFixed(1)}</span>
-            </div>
-            <Separator orientation="vertical" className="h-4" />
-            <div className="flex items-center gap-1.5 text-sm text-muted-foreground">
-              <span className="font-bold text-foreground">{product.numReviews || 0}</span>
-              <span>Reviews</span>
-            </div>
-            <Separator orientation="vertical" className="h-4" />
+            {((product.ratings || 0) > 0 || (product.numReviews || 0) > 0) && (
+              <>
+                <div className="flex items-center gap-1">
+                  <RatingStars rating={product.ratings || 0} />
+                  <span className="text-sm font-bold ml-1">{(product.ratings || 0).toFixed(1)}</span>
+                </div>
+                <Separator orientation="vertical" className="h-4" />
+                <div className="flex items-center gap-1.5 text-sm text-muted-foreground">
+                  <span className="font-bold text-foreground">{product.numReviews || 0}</span>
+                  <span>Reviews</span>
+                </div>
+                <Separator orientation="vertical" className="h-4" />
+              </>
+            )}
             <button
               onClick={() => setIsShareOpen(true)}
               className="flex items-center gap-1.5 text-sm font-bold text-muted-foreground hover:text-primary transition-colors cursor-pointer"
