@@ -34,14 +34,14 @@ const FAQ = mongoose.models.FAQ || mongoose.model('FAQ', FAQSchema);
 
 const faqs = [
   {
-    question: 'What type of products does Amira Beautiful Care offer?',
-    answer: 'Amira Beautiful Care offers premium and comfortable menswear. Our collection includes high-quality T-shirts, Polo Shirts, Casual & Formal Shirts, Hoodies, and comfortable Pants.',
+    question: 'Are your beauty and cosmetic products authentic?',
+    answer: 'Yes, all our products are 100% authentic. We source them directly from authorized distributors and the original brands to ensure you receive genuine and high-quality products.',
     order: 1,
     isActive: true,
   },
   {
-    question: 'How is the fabric quality of your clothing?',
-    answer: 'We use premium combed cotton, high-GSM pique knit, and top-grade woven fabrics for our products. Our fabrics are pre-shrunk, meaning they will not lose their shape or fade after washing.',
+    question: 'What is your return or exchange policy for cosmetics?',
+    answer: 'Due to hygiene and safety reasons, we cannot accept returns or exchanges on opened or used skincare and cosmetic products. If you receive a damaged or incorrect item, please contact us within 24 hours of delivery for a replacement.',
     order: 2,
     isActive: true,
   },
@@ -52,14 +52,14 @@ const faqs = [
     isActive: true,
   },
   {
-    question: 'Can I exchange a product if the size does not fit?',
-    answer: 'Yes! We offer a hassle-free 7-day exchange policy. If you have size issues, you can exchange the item as long as it is unused, unwashed, and has its original tags attached.',
+    question: 'How can I find the right makeup shade for my skin tone?',
+    answer: 'We provide detailed shade descriptions and swatches on our product pages. If you need personalized assistance, our customer support team is always happy to help you find your perfect match.',
     order: 4,
     isActive: true,
   },
   {
-    question: 'How do I choose the correct size?',
-    answer: 'We provide a detailed Size Chart on every product page. We highly recommend measuring your chest and length before placing an order to find your perfect fit.',
+    question: 'Do you offer organic or cruelty-free products?',
+    answer: 'Yes, we have a curated selection of organic, vegan, and cruelty-free beauty products. You can check the product descriptions for specific certifications and ingredient lists.',
     order: 5,
     isActive: true,
   }

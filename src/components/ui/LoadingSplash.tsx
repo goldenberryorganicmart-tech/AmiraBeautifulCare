@@ -90,7 +90,7 @@ export default function LoadingSplash({
       {/* Brand Text */}
       <div className="mt-12 text-center max-w-lg px-6">
         {/* BrandName Text with Letter-by-Letter Stagger Animation */}
-        <div className="flex flex-wrap justify-center text-3xl md:text-4xl font-black mb-3 tracking-wide text-primary-foreground drop-shadow-md font-logo">
+        <div className="flex flex-wrap justify-center text-2xl md:text-4xl font-black mb-3 tracking-wide text-primary-foreground drop-shadow-md font-logo">
           {letters.map((letter, i) => (
             <motion.span
               key={i}
