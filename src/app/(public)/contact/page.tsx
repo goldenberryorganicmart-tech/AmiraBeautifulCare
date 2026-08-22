@@ -1,4 +1,4 @@
-﻿import { Metadata } from 'next';
+import { Metadata } from 'next';
 import { Mail, Phone, MapPin, ExternalLink, MessageCircleMore } from 'lucide-react';
 import { Facebook, X, Instagram, Youtube } from '@/components/ui/social-icons';
 import connectToDatabase from '@/lib/db';
@@ -164,7 +164,7 @@ export default async function ContactPage() {
                   Follow us on social media to stay updated with our latest collections, offers, and news from {brandName}.
                 </p>
 
-                {socialItems.length > 0 ? (
+                {socialItems.length > 0 && (
                   <div className="flex flex-wrap gap-4">
                     {socialItems.map((social, idx) => (
                       <a
@@ -179,8 +179,6 @@ export default async function ContactPage() {
                       </a>
                     ))}
                   </div>
-                ) : (
-                  <p className="italic text-muted-foreground">Social links coming soon...</p>
                 )}
               </div>
 

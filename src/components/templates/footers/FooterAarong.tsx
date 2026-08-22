@@ -109,7 +109,7 @@ export default function FooterAarong() {
 
   return (
     <footer className="w-full bg-card text-card-foreground border-t border-border/80">
-      
+
       {/* ── Top Bar: Brand Value Props ── */}
       <div className="border-b border-border/60 py-8 bg-muted/20">
         <div className="container mx-auto px-4 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-6 text-center md:text-left">
@@ -140,7 +140,7 @@ export default function FooterAarong() {
       {/* ── Middle Section: Navigation & Newsletter ── */}
       <div className="container mx-auto px-4 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-          
+
           {/* Logo & Contact details */}
           <div className="space-y-6">
             <Logo />

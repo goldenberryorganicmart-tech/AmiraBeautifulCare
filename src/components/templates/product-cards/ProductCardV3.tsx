@@ -312,12 +312,14 @@ export default function ProductCardV3({ product: initialProduct, isFlashSale }: 
           </Link>
 
           {/* Rating */}
-          <div className="flex items-center gap-1.5 pt-0.5">
-            <RatingStars rating={product.ratings || 0} starClassName="h-3 w-3" />
-            <span className="text-[10px] text-muted-foreground font-bold">
-              ({product.numReviews || 0})
-            </span>
-          </div>
+          {(product.ratings ?? 0) > 0 && (
+            <div className="flex items-center gap-1.5 pt-0.5">
+              <RatingStars rating={product.ratings || 0} starClassName="h-3 w-3" />
+              <span className="text-[10px] text-muted-foreground font-bold">
+                ({product.numReviews || 0})
+              </span>
+            </div>
+          )}
         </div>
 
         {/* Price & Button Stack */}
